@@ -6,5 +6,23 @@ dist/
 wheels/
 *.egg-info
 
-# Virtual environments
-.venv
+# Django
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+staticfiles/
+
+# Environment
+.env
+.venv/
+venv/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
